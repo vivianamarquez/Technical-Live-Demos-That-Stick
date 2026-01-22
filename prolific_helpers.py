@@ -817,23 +817,25 @@ def create_all_option_visualizations(df: pd.DataFrame, option_column: str,
     Returns:
         dict: Dictionary containing all figure objects
     """
+    from IPython.display import display
+
     figures = {}
 
     # Pie chart
     figures['pie'] = plot_option_preference_pie(df, option_column)
-    figures['pie'].show()
+    display(figures['pie'])
 
     # Gender bar chart
     figures['gender'] = plot_option_preference_by_gender(df, option_column, gender_column)
-    figures['gender'].show()
+    display(figures['gender'])
 
     # Generation bar chart
     figures['generation'] = plot_option_preference_by_generation(df, option_column, age_column)
-    figures['generation'].show()
+    display(figures['generation'])
 
     # Country bar chart
     figures['country'] = plot_option_preference_by_country(df, option_column, country_column)
-    figures['country'].show()
+    display(figures['country'])
 
     # Print comments
     print_comments(df, comments_column)

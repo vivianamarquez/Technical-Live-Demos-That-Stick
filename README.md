@@ -46,6 +46,14 @@ To view as a slideshow using RISE, open the notebook and click the presentation 
 
 **Documentation**: https://rise.readthedocs.io/
 
+#### Installation 
+
+- Current (using Jupyter Lab): 
+`conda create -n rise_slides python=3.14 jupyterlab jupyterlab_rise -c conda-forge`
+
+- Deprecated (using Jupyter Notebook):
+`conda create -n rise_slides python=3.10 notebook=6.5.4 "tinycss2<1.5" rise -c conda-forge`
+
 ## Contact
 
 **Viviana Márquez**

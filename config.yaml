@@ -9,7 +9,7 @@ study:
   # If provided, use create_external_study() instead of create_study()
   external_study_url: "https://forms.gle/x4Cnoa1ne3ny4cij9"
   # Google Sheets ID for results data
-  gs_id: "1v5xijG-13okiQJVkVPXpaPMMkE8SQwiuTjd87xJM8OI"
+  gs_id: "1ZWexR1yVmcG9P2fHuk6swwi_3F177RveZfgfqAb68J8"
 
 # Survey Question (Optional if using external_study_url)
 # Only needed when creating a Prolific-built survey
@@ -25,7 +25,7 @@ survey:
 # Participant Settings
 participants:
   reward: 2  # in dollars
-  total_participants: 50
+  total_participants: 10
   estimated_time: 2  # in minutes
   max_time: 5  # in minutes
 
