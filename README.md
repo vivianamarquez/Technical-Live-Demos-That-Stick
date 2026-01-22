@@ -46,13 +46,47 @@ To view as a slideshow using RISE, open the notebook and click the presentation 
 
 **Documentation**: https://rise.readthedocs.io/
 
-#### Installation 
+### Installation
 
-- Current (using Jupyter Lab): 
+- Current (using Jupyter Lab):
+
 `conda create -n rise_slides python=3.14 jupyterlab jupyterlab_rise -c conda-forge`
 
 - Deprecated (using Jupyter Notebook):
+
 `conda create -n rise_slides python=3.10 notebook=6.5.4 "tinycss2<1.5" rise -c conda-forge`
+
+### Publishing Slides as a Live Webpage
+
+You can convert your notebook to static HTML slides and host them on GitHub Pages.
+
+#### 1. Convert Notebook to HTML Slides
+
+```bash
+jupyter nbconvert LiveDemos.ipynb --to slides --output index
+mv index.slides.html index.html
+```
+
+#### 2. Commit and Push
+
+```bash
+git add index.html
+git commit -m "Add slides webpage"
+git push
+```
+
+#### 3. Enable GitHub Pages
+
+1. Go to your repo on GitHub
+2. Settings → Pages
+3. Source: Deploy from branch
+4. Branch: `main`, folder: `/ (root)`
+5. Save
+
+Your slides will be live at:
+```
+https://username.github.io/reponame/
+```
 
 ## Contact
 
