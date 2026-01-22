@@ -4,7 +4,7 @@ Materials from the talk presented at [The Content Playbook: Smarter Data, AI, Gl
 
 ## About the Talk
 
-Live demos can be one of the most powerful ways to teach technical concepts, when they're done well. But they can also quickly overwhelm, bore, or lose an audience if the storytelling isn't intentional. This talk presents a practical framework for crafting engaging technical learning experiences using tools like Jupyter and RISE to turn code into a compelling narrative instead of a wall of text.
+Live demos can be one of the most powerful ways to teach technical concepts, when they're done well. But they can also quickly overwhelm, bore, or lose an audience if the storytelling isn't intentional. This talk presents a practical framework for crafting engaging technical learning experiences using tools like **Jupyter** and **RISE** to turn code into a compelling narrative instead of a wall of text.
 
 ## What's in This Repository
 
