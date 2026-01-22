@@ -1,0 +1,16 @@
+name: rise_slides
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - notebook=6.5.4
+  - tinycss2<1.5
+  - rise
+  - pip
+  - pip:
+      - plotly<6
+      - python-dotenv
+      - matplotlib
+      - pandas
+      - requests
